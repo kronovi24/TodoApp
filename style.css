@@ -1,0 +1,106 @@
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+.bkgContainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: -1;
+}
+
+.bkg {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(assets/bkg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+
+    opacity: 0.5;
+}
+
+.bkg2 {
+    background-image: linear-gradient(rgb(10, 15, 64), black);
+    width: 100vw;
+    height: 10vh;
+    z-index: -1;
+
+}
+
+
+
+.mainCon {
+    display: flex;
+    justify-content: center;
+}
+
+.mainCon textarea {
+    border: 1px solid black;
+}
+
+.mainCon input {
+    border: 1px solid black;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+}
+
+.main button {
+    margin-bottom: 20px;
+    width: 30%;
+
+}
+
+.labels {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#about {
+    height: 100px;
+    width: 100%;
+    resize: none;
+}
+
+#title {
+    width: 100%;
+}
+
+
+.table {
+    margin-top: 20px;
+    border: 1px solid black;
+    font-family: 'Kanit', sans-serif;
+}
+
+.table th {
+    background-color: black;
+    color: white;
+}
+
+.table tr {
+    background-color: white;
+    color: black;
+
+}
+
+.datas {
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+}
